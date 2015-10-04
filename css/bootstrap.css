@@ -1424,7 +1424,7 @@ ol ol {
 }
 .list-reg {
   padding-left: 10px;
-  margin-left: 0px;
+  margin-left: -10px;
   list-style: circle;
   list-style-position: inside;
 }
