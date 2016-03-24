@@ -37,6 +37,15 @@ hr.light {
     border-color: #fff;
 }
 
+
+a.bluelink {
+    color: #0000FF;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+
 a.blacklink {
     color: #000000;
     -webkit-transition: all .35s;
@@ -54,6 +63,11 @@ a {
 a.blacklink:hover,
 a.blacklink:focus {
     color: #ffffff;
+}
+
+a.bluelink:hover,
+a.bluelink:focus {
+    color: #f05f40;
 }
 
 a:hover,
