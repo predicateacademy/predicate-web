@@ -512,3 +512,20 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+/* --- custom changes --- */
+
+.week-links {
+    display: inline-block;
+    margin: 0.8rem 0;
+}
+
+.header-buttons {
+    margin: 2px 0;
+}
+
+@media (min-width: 768px) {
+    .header-buttons {
+        margin: 0 7px;
+    }
+}
